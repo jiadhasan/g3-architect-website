@@ -17,6 +17,9 @@
 .text-light-gray{
     color: #727272;
 }
+main > section{
+    margin-top: 100px;
+}
   /*header styles*/
    .bg-light{
     background-color:bisque
@@ -52,6 +55,8 @@
 .banner-title{
     font-weight: 700;
     font-size: 4rem;
+    
+    
 }
 .btn-primary{
     background-color: darkorange;
@@ -67,8 +72,45 @@
    font-size: 16px;
 }
 .banner-img{
-    width: 100%;
+    width:100%;
 }
+main{
+    max-width: 1448;
+    margin: 0 auto;
+}
+/*teams and features related styles*/
+.teams{
+    justify-content: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+    
+}
+.team-features{
+    margin-left: 130px;
+    max-width: 530px;
+    align-content: center;
+}
+.sp1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.sp2{
+  color: #131313;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.sp3{
+   color: #FF900E;
+   font-weight: bold;
+   font-size: 3rem;
+}
+.team-description {
+    font-size: 1rem;
+}
+
 /*media query*/
 @media screen and (max-width:576px) {
     .navbar,.nav-link{
