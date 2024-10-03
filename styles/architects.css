@@ -151,7 +151,64 @@ main{
     align-items: center;
     text-align: center;
 }
-
+/*features related styles*/
+.card-title{
+    font-size: larger;
+    font-weight: 600;
+    color: #131313; 
+}
+.features-title{
+    border-left:solid 5px  #FF900E;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.features-description{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.card{
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+   box-shadow:5px 10px 20px #E7E7E7;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 500px;
+}
+.features-image{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.boldbtn{
+    color:aliceblue;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.Experience{
+    margin-top: -170px;
+    margin-left: -130px;
+    background-color: darkorange;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 1.2rem;
+    border-style: none;
+}
+/*navigation-bar styles*/
+.nav{
+    background-color:#FFF4E7;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 /*media query*/
 @media screen and (max-width:576px) {
     .navbar,.nav-link , .teams{
@@ -170,5 +227,14 @@ main{
     .sponsors{
         grid-template-columns: repeat(2,1fr);
         gap: 30px;
+    }
+    .feature{
+          flex-direction: column;
+    }
+    .Experience{
+        margin: 0 auto;
+    }
+    .features-image{
+        width: 100%; 
     }
 }
